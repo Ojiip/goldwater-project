@@ -147,21 +147,35 @@ select {
 
 header {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center   
 }
 
-.logo {
+.m {
+    margin: 0 25px;
+}
 
+
+.logo {
+    font-size: 1.125rem;
+    /* font-family: ; inter */
+    /* font-wight: ; 100 */
 }
 
 
 .nav {
-
+    flex: 1 1 auto;
   }
 
 
 .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.icons {
+    display: flex;
 }
 
 .icon {
