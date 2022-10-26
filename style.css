@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -28,6 +30,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
@@ -148,24 +151,23 @@ select {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center   
+    align-items: center;
+    padding: 20px 0;
 }
 
 .m {
-    margin: 0 25px;
+  margin-inline: 100px;
 }
 
-
-.logo {
-    font-size: 1.125rem;
-    /* font-family: ; inter */
-    /* font-wight: ; 100 */
+.m > h2 {
+  font-size: 48px;
+  font-weight: 400;
 }
-
 
 .nav {
-    flex: 1 1 auto;
-  }
+  flex-basis: 30%;
+}
+
 
 
 .list {
@@ -182,7 +184,7 @@ header {
     margin: 0 5px;
 }
 
-
+/* 
 .hero {
     background-image: linear-gradient(rgb(157, 217, 254, 0.7),
     rgba(0,0,0, .5)),
